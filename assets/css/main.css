@@ -19,11 +19,16 @@ body::-webkit-scrollbar-thumb {
   background-size: cover;
   background-position: center;
   padding: 8px 5vw 8px 8vw;
+  transition: .3s ease-in-out;
 }
 
+.navbar.fixed-top{
+  transition: .3s ease-in-out;
+}
 @media (min-width: 0px) and (max-width: 575px) {
   .navbar {
     background-image: unset;
+    transition: .3s ease-in-out;
     padding: 8px 16px;
   }
 }
@@ -78,7 +83,7 @@ body::-webkit-scrollbar-thumb {
 
 .nav-link {
   color: #fff;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -851,7 +856,7 @@ textarea {
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 40px 30px;
+  padding: 50px 30px;
 }
 
 @media (min-width: 0px) and (max-width: 575px) {

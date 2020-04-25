@@ -71,3 +71,14 @@ $(document).ready(function() {
     });
   }
 });
+
+// Menú fixed
+$(window).scroll(function () {
+  if ($(document).scrollTop() > 70 && ($(window).width() <= 767)) {
+    $('.navbar').addClass('fixed-top');
+
+  } else {
+    $('.navbar').removeClass('fixed-top');
+
+  }
+});
