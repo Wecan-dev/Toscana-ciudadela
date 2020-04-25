@@ -388,6 +388,10 @@ textarea {
   transition: all ease-in-out .3s;
 }
 
+.btn-form{
+  padding: .375rem .75rem !important;
+}
+
 .btn-submit:hover {
   background-color: #fff;
   color: #205250;
@@ -1287,5 +1291,8 @@ textarea {
   }
   dd {
     margin-bottom: 1rem;
+  }
+  input.btn-form{
+    padding: 6px 25px!important;
   }
 }
