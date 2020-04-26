@@ -755,7 +755,7 @@ textarea {
 .main-properties {
   display: grid;
   grid-template-columns: 50% 50%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 @media (min-width: 0px) and (max-width: 575px) {
@@ -1266,9 +1266,9 @@ textarea {
     margin-top: -4rem;
     margin-bottom: 25px;
   }
-  .main-properties{
+  /* .main-properties{
     height: 83vh;
-  }
+  } */
   .main-location__header{
     padding: 55px 30px;
     height: 160px;
