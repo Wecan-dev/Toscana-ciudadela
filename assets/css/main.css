@@ -1271,6 +1271,7 @@ textarea {
   }
   .main-location__header{
     padding: 55px 30px;
+    height: 160px;
   }
   .main-location__map {
     padding: 40px 85px;
