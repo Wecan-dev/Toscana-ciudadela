@@ -52,7 +52,9 @@ $(document).ready(function() {
   $('.main-slider').slick({
     infinite: true,
     fade: true,
-    cssEase: 'linear'
+    cssEase: 'linear',
+    autoplay:true,
+    autoplaySpeed: 5000
   });
 
   function doAnimations(elements) {

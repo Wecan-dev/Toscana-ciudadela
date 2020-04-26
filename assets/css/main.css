@@ -20,6 +20,13 @@ body::-webkit-scrollbar-thumb {
   background-position: center;
   padding: 8px 5vw 8px 8vw;
   transition: .3s ease-in-out;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  top:0;
+}
+.pd-top{
+  padding-top: 85px !important;
 }
 
 .navbar.fixed-top{
@@ -30,6 +37,9 @@ body::-webkit-scrollbar-thumb {
     background-image: unset;
     transition: .3s ease-in-out;
     padding: 8px 16px;
+  }
+  .pd-top {
+    padding-top: 70px !important;
   }
 }
 
