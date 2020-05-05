@@ -20,7 +20,7 @@
   line-height: 0px;
   font-size: 0px;
   cursor: pointer;
-  background: transparent;
+  /* background: transparent; */
   color: transparent;
   top: 50%;
   -webkit-transform: translate(0, -50%);
