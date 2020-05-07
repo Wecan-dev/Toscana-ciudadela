@@ -120,6 +120,8 @@
       <a href="http://www.activecampaign.com" class="_logo"></a>
     </div>
   </div>
+  <div class="_form-thank-you" style="display:none;">
+  </div>
 </form>
 
 <!-- 
