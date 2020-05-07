@@ -83,8 +83,8 @@
         <div class="_row _checkbox-radio form-group form-check mb-1">
           <input class="form-check-input" id="field_4Acepto" type="checkbox" name="field[4][]" value="Acepto"   >
           <span>
-            <label for="field_4Acepto form-check-label" style="color: white;">
-              Acepto  <a style="color: white; border-bottom: 1px solid;" href='<?php echo get_template_directory_uri();?>/assets/pdf/MANUAL_DE_POLITICAS_PROMOTORA.pdf' target='blank'>Politicas y Privacidad</a>
+            <label for="field_4Acepto form-check-label" style="color: white;font-size:12px;">
+              Acepto  <a style="color: white; border-bottom: 1px solid;font-size:12px;" href='<?php echo get_template_directory_uri();?>/assets/pdf/MANUAL_DE_POLITICAS_PROMOTORA.pdf' target='blank'>Politicas y Privacidad</a>
             </label>
           </span>
         </div>
