@@ -317,7 +317,7 @@ textarea {
   background-color: #205250;
   display: grid;
   grid-template-columns: 35% 55%;
-  padding: 30px 50px 30px 6vw;
+  padding: 20px 50px 40px 6vw;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -1232,7 +1232,7 @@ textarea {
   }
   .main-quick-form{
     grid-template-columns: 33% 55%;
-    padding: 30px 50px 20px 6vw;
+    padding: 20px 50px 40px 6vw;
   }
   .main-quick-form .main-quick-form__form{
     grid-template-columns: 35% 54%;
@@ -1311,4 +1311,11 @@ textarea {
   input.btn-form{
     padding: 6px 25px!important;
   }
+}
+.form-group {
+  margin-bottom: -0.2rem !important;
+}
+
+._form_element._field4._full_width {
+  margin-top: -1rem !important;
 }

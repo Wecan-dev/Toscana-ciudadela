@@ -8,8 +8,8 @@
   </div>
   <form  method="POST" action="https://nivel.activehosted.com/proc.php" id="_form_9_" class="_form _form_9 _inline-form  _dark" novalidate>
     <div class="main-quick-form__form _form-content ">
-      
-      
+
+
       <div>
         <input type="hidden" name="u" value="9" />
         <input type="hidden" name="f" value="9" />
@@ -76,9 +76,11 @@
             <textarea class='form-control' name="field[2]" placeholder=" Mensaje"  ></textarea>
           </div>
         </div>
+
         <div class="_form_element _field4 _full_width " >
           <div class="_row">
             <label class="_form-label">
+
 
             </label>
           </div>
@@ -86,7 +88,7 @@
           <div class="_row _checkbox-radio form-group form-check mb-1">
             <input class="form-check-input" id="field_4Acepto" type="checkbox" name="field[4][]" value="Acepto"   >
             <span>
-              <label for="field_4Acepto form-check-label" style="color: white;">
+              <label for="field_4Acepto form-check-label" style="color: white; font-size: 12px;">
                 Acepto  <a style="color: white; border-bottom: 1px solid;" href='<?php echo get_template_directory_uri();?>/assets/pdf/MANUAL_DE_POLITICAS_PROMOTORA.pdf' target='blank'>Politicas y Privacidad</a>
               </label>
             </span>
