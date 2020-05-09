@@ -98,7 +98,7 @@
         <input id="field_4Acepto2" type="checkbox" name="field[4][]" value="Acepto"   >
         <span>
           <label for="field_4Acepto2" style="color: white;font-size:12px;">
-            Acepto  <a style="color: white; border-bottom: 1px solid;font-size:12px;" href='<?php echo get_template_directory_uri();?>/assets/pdf/MANUAL_DE_POLITICAS_PROMOTORA.pdf' target='blank'>Politicas y Privacidad</a>
+            Acepto  <a style="color: white; border-bottom: 1px solid;font-size:12px;" href='<?php echo get_template_directory_uri();?>/assets/pdf/MANUAL_DE_POLITICAS_PROMOTORA.pdf' target='blank'>Políticas y Privacidad</a>
           </label>
         </span>
       </div>

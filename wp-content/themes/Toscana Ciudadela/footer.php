@@ -24,9 +24,7 @@
       <li>
         <a class='scroll-link' href='#ciudadela'>Nuestra Ciudadela</a>
       </li>
-          <!-- <li>
-            <a class='scroll-link' href='#video'>Video</a>
-          </li> -->
+    
           <li>
             <a class='scroll-link' href='#proyectos'>Proyectos</a>
           </li>
@@ -382,7 +380,7 @@ window._load_script = function(url, callback) {
 <script src='<?php echo get_template_directory_uri();?>/assets/js/slick.min.js'></script>
 <script src='<?php echo get_template_directory_uri();?>/assets/js/main.js'></script>
 </div>
-
+<?php wp_footer(); ?>
 </body>
 
 </html>
