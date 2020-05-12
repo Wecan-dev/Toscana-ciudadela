@@ -77,33 +77,29 @@
           </div>
         </div>
         <input data-autofill="false" type="hidden" name="field[4][]" value="~|">
-        <div class="_row _checkbox-radio form-group form-check mb-1">
+        <div class="_row _checkbox-radio form-group form-check mb-1" style="margin: 8px 0 0px !important; ">
           <input class="form-check-input" id="field_4Acepto" type="checkbox" name="field[4][]" value="Acepto"   >
           <span>
             <label for="field_4Acepto form-check-label" style="color: white;font-size:12px;">
               Acepto  <a style="color: white; border-bottom: 1px solid;font-size:12px;" href='<?php echo get_template_directory_uri();?>/assets/pdf/MANUAL_DE_POLITICAS_PROMOTORA.pdf' target='blank'>Políticas y Privacidad</a>
             </label>
-          </div>
-          <input data-autofill="false" type="hidden" name="field[4][]" value="~|">
-          <div class="_row _checkbox-radio form-group form-check mb-1">
-            <input class="form-check-input" id="field_4Acepto" type="checkbox" name="field[4][]" value="Acepto"   >
-            <span>
-              <label for="field_4Acepto form-check-label" style="color: white; font-size: 12px;">
-                Acepto  <a style="color: white; border-bottom: 1px solid;" href='<?php echo get_template_directory_uri();?>/assets/pdf/MANUAL_DE_POLITICAS_PROMOTORA.pdf' target='blank'>Politicas y Privacidad</a>
-              </label>
-            </span>
-          </div>
+          </span>
         </div>
+        <input data-autofill="false" type="hidden" name="field[4][]" value="~|">
+
+
         <div class="_button-wrapper _full_width form-group">
           <button id="_form_9_submit" class="_submit btn btn-submit w-100 btn-form" type="submit">
             Enviar
           </button>
         </div>
-        <div class="_clear-element">
-        </div>
       </div>
     </div>
+    <div class="_clear-element">
+    </div>
   </div>
+</div>
+</div>
 </div>
 <div class="_form-thank-you" style="display:none;">
 </div>
