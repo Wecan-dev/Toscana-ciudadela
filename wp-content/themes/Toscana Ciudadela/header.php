@@ -12,7 +12,7 @@
 
   <!-- Google Meta Data -->
   <meta name='description', content='<?php bloginfo('description');?>'>
-  <meta name='keywords', content=''>
+  <meta name='keywords', content='ciudadela toscana, apartamentos en sabaneta, venta de apartamentos en sabaneta, apartamentos nuevos en sabaneta, apartamentos toscana sabaneta, ciudadela toscana sabaneta, proyecto habitacional en sabaneta'>
   <meta name="robots" content="index, follow">
 
   <!-- Blog Meta Data -->
