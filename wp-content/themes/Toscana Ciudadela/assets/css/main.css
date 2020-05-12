@@ -1050,13 +1050,15 @@ textarea {
   color: #fff;
 }
 
-.main-footer {
+.footer{
   background-image: url("../img/footer-bg.jpg");
-  display: grid;
-  grid-template-columns: 40% 30% 30%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.main-footer {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
   padding: 50px 100px;
 }
 
@@ -1318,4 +1320,23 @@ textarea {
 
 ._form_element._field4._full_width {
   margin-top: -1rem !important;
+}
+
+
+.copy{
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 55px;
+	/* background-color: #fff; */
+}
+.end-text a{
+	color: #fff !important;
+}
+.end-text{
+	margin-bottom: 0px;
+}
+.end-text a:hover{
+	text-decoration: underline !important;
 }

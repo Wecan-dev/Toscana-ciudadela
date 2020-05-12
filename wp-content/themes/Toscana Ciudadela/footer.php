@@ -1,63 +1,72 @@
-<section class='main-footer'>
-  <div class='main-footer__col'>
-    <img alt='Toscana Ciudadela Logo' src='<?php echo get_template_directory_uri();?>/assets/img/logos/logo-toscana.png'>
-    <p>Ubicado en el municipio de Sabaneta, Antioquia, sector Loma de San José, zona de alta valorización en una reserva natural que te entregará toda la tranquilidad que necesitas.</p>
-    <ul class='rrss'>
-      <li>
-        <a href='https://www.facebook.com/nivelpropiedadraiz' target='blank'>
-          <i class='fa fa-facebook'></i>
-        </a>
-      </li>
-      <li>
-        <a href='https://www.instagram.com/nivelpropiedadraiz/' target='blank'>
-          <i class='fa fa-instagram'></i>
-        </a>
-      </li>
-    </ul>
+<section class='footer'>
+  <div class="main-footer">
+    <div class='main-footer__col'>
+      <img alt='Toscana Ciudadela Logo' src='<?php echo get_template_directory_uri();?>/assets/img/logos/logo-toscana.png'>
+      <p>Ubicado en el municipio de Sabaneta, Antioquia, sector Loma de San José, zona de alta valorización en una reserva natural que te entregará toda la tranquilidad que necesitas.</p>
+      <ul class='rrss'>
+        <li>
+          <a href='https://www.facebook.com/nivelpropiedadraiz' target='blank'>
+            <i class='fa fa-facebook'></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://www.instagram.com/nivelpropiedadraiz/' target='blank'>
+            <i class='fa fa-instagram'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class='main-footer__col'>
+      <ul class='menu'>
+        <li class='menu-title'>MENÚ</li>
+        <li>
+          <a class='scroll-link' href='#sabaneta'>Vive en Sabaneta</a>
+        </li>
+        <li>
+          <a class='scroll-link' href='#ciudadela'>Nuestra Ciudadela</a>
+        </li>
+      
+            <li>
+              <a class='scroll-link' href='#proyectos'>Proyectos</a>
+            </li>
+            <li>
+              <a class='scroll-link' href='#ubicacion'>Ubicación</a>
+            </li>
+            <li>
+              <a class='scroll-link' href='#contacto'>Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div class='main-footer__col'>
+          <ul class='menu'>
+            <li class='menu-title'>Contáctanos</li>
+          </ul>
+          <dl>
+            <dt>Dirección</dt>
+            <dd>
+              <a href='https://www.google.com/maps/place/Toscana+Ciudadela+Residencial/@6.1390098,-75.620371,18z/data=!3m1!4b1!4m5!3m4!1s0x8e46830c1ec24059:0xdd3aab6ba48bd17e!8m2!3d6.1390071!4d-75.6192767?hl=en'>Calle 77 Sur Nro 34-35</a>
+            </dd>
+            <dt>Teléfono</dt>
+            <dd>
+              <a href='tel:+575202714'>+ 57 520 27 14</a>
+            </dd>
+            <dt>Celular</dt>
+            <dd>
+              <a href='https://api.whatsapp.com/send?phone=573148775701'>+ 57 314 877 57 01</a>
+            </dd>
+          </dl>
+          <a class='btn btn-custom transparent d-none' href=''>Descargar Brochure</a>
+        </div>
   </div>
-  <div class='main-footer__col'>
-    <ul class='menu'>
-      <li class='menu-title'>MENÚ</li>
-      <li>
-        <a class='scroll-link' href='#sabaneta'>Vive en Sabaneta</a>
-      </li>
-      <li>
-        <a class='scroll-link' href='#ciudadela'>Nuestra Ciudadela</a>
-      </li>
-    
-          <li>
-            <a class='scroll-link' href='#proyectos'>Proyectos</a>
-          </li>
-          <li>
-            <a class='scroll-link' href='#ubicacion'>Ubicación</a>
-          </li>
-          <li>
-            <a class='scroll-link' href='#contacto'>Contacto</a>
-          </li>
-        </ul>
-      </div>
-      <div class='main-footer__col'>
-        <ul class='menu'>
-          <li class='menu-title'>Contáctanos</li>
-        </ul>
-        <dl>
-          <dt>Dirección</dt>
-          <dd>
-            <a href='https://www.google.com/maps/place/Toscana+Ciudadela+Residencial/@6.1390098,-75.620371,18z/data=!3m1!4b1!4m5!3m4!1s0x8e46830c1ec24059:0xdd3aab6ba48bd17e!8m2!3d6.1390071!4d-75.6192767?hl=en'>Calle 77 Sur Nro 34-35</a>
-          </dd>
-          <dt>Teléfono</dt>
-          <dd>
-            <a href='tel:+575202714'>+ 57 520 27 14</a>
-          </dd>
-          <dt>Celular</dt>
-          <dd>
-            <a href='https://api.whatsapp.com/send?phone=573148775701'>+ 57 314 877 57 01</a>
-          </dd>
-        </dl>
-        <a class='btn btn-custom transparent d-none' href=''>Descargar Brochure</a>
-      </div>
-    </section>
-    
+
+  <div class="copy">
+    <div class="main-end__text">
+      <p class="end-text">
+        <a target="_blank" href="https://sigma.la/">Copyright © 2020 Sigma Studios</a>
+      </p>
+    </div>
+  </div>
+  </section>
     <script type="text/javascript">
       window.cfields = {"1":"ciudad","2":"mensaje","4":"acepto_polticas_de_privacidad","10":"utmsource","11":"utmmedium","12":"utmcampaign","13":"utmterm","14":"referrerurl"};
       window._show_thank_you = function(id, message, trackcmp_url) {
